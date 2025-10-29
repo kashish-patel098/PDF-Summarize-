@@ -11,12 +11,14 @@ This project is an advanced AI-powered tool designed to automate the process of 
 
 ## File Structure
 ```
+README.md               # Detailed Description about project 
 cli.py                  # Main command-line interface for running the pipeline
 Example.pdf             # Example pdf for summarize
 requirements.txt        # Python dependencies
 output/
     tts/                # Generated audio files
-    visuals/            # Selected or generated visuals for slides.pptx         # Example ppt
+    visuals/            # Selected or generated visuals for slides.pptx
+    slides.pptx         # Example ppt
     video.mp4           # Example Video 
 src/
     pdf_ingest.py       # PDF ingestion and text extraction
@@ -25,7 +27,6 @@ src/
     tts.py              # Text-to-speech generation
     video_maker.py      # Video assembly from slides and audio
     visual_selector.py  # Visual selection for slides
-    __pycache__/        # Python cache files
 ```
 
 ## Usage Instructions
